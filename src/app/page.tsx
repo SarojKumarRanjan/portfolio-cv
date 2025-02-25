@@ -1,7 +1,7 @@
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { RESUME_DATA } from "@/data/resume-data";
-import { WorkExperience } from "./components/WorkExperience";
+//import { WorkExperience } from "./components/WorkExperience";
 import { Projects } from "./components/Projects";
 import { Education } from "./components/Education";
 import { Summary } from "./components/Summary";

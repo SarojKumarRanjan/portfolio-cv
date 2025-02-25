@@ -185,6 +185,7 @@ export const RESUME_DATA = {
       description:
         "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     }, */
+    
   ],
   skills: [
     "JavaScript",

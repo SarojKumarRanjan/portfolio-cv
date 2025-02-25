@@ -132,7 +132,7 @@ interface WorkExperienceProps {
  * Main work experience section component
  * Renders a list of work experiences in chronological order
  */
-export function WorkExperience({ work }: WorkExperienceProps) {
+/* export function WorkExperience({ work }: WorkExperienceProps) {
   return (
     <Section>
       <h2 className="text-xl font-bold" id="work-experience">
@@ -147,4 +147,4 @@ export function WorkExperience({ work }: WorkExperienceProps) {
       </div>
     </Section>
   );
-}
+} */
