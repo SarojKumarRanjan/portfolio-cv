@@ -1,8 +1,11 @@
 version: '3.8'
 
 services:
-  app:
+  cv:
     build: .
+    container_name: cv
+    networks:
+      - app-network
     ports:
       - '3000:3000'
     environment:

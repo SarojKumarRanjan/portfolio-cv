@@ -6,7 +6,7 @@ import {
   NSNLogo,
   ParabolLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon ,GeeksforGeeksIcon,LeetCodeIcon} from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Saroj Kumar Ranjan",
@@ -22,13 +22,22 @@ export const RESUME_DATA = {
       systems.
     </>
   ),
-  avatarUrl: "https://iili.io/2DqYutf.png",
-  personalWebsiteUrl: "https://sarojranjan.me",
+  
+  avatarUrl: "https://iili.io/3zgygLl.jpg",
   contact: {
-    email: "dev.saroj2003@gmail.com",
-    tel: "+918210807752",
     social: [
       {
+      name:"GeeksforGeeks",
+      url:"https://www.geeksforgeeks.org/user/sarojranjan02/",
+      icon: GeeksforGeeksIcon,
+      },
+      {
+       name:"LeetCode",
+       url:"https://leetcode.com/u/SarojKumarRanjan/",
+       icon: LeetCodeIcon,
+      },
+      {
+
         name: "GitHub",
         url: "https://github.com/SarojKumarRanjan",
         icon: GitHubIcon,
@@ -44,20 +53,24 @@ export const RESUME_DATA = {
         icon: XIcon,
       },
     ],
+    email: "dev.saroj2003@gmail.com",
+    tel: "+918210807752",
+    
   },
+  personalWebsiteUrl: "https://sarojranjan.me",
   education: [
     {
       school: "Dronacharya Group of Institutions",
       degree: "Bachelor of Technology in Electronics and Communication",
-      start: "2022",
+      start: "",
       end: "2026",
     },
-    {
+     {
       school: "A.B.S Inter College",
       degree: "Intermediate of Science",
-      start: "2019",
+      start: "",
       end: "2021",
-    },
+    }, 
   ],
   work: [
   /*  {
@@ -210,18 +223,7 @@ export const RESUME_DATA = {
     "Cloudflare",
   ],
   projects: [
-    {
-      title: "Centralized Trading Exchange Platform",
-      techStack: ["TypeScript","Express", "Next.js", "PostgreSQL","Redis","WebSockets"],
-      description:
-        "Distributed centralized trading exchange for real-time asset trading. Utilized a WebSocket server to deliver real-time updates for depth, tickers, trades, and trading charts.",
- 
-      logo: MonitoLogo,
-      link: {
-        label: "exchange.sarojranjan.me",
-        href: "https://exchange.sarojranjan.me/",
-      },
-    },
+
     {
       title: "VideoHub",
       techStack: [
@@ -233,15 +235,31 @@ export const RESUME_DATA = {
         "JWT",
         "MongoDB",
         "Cloudinary",
+        "AWS",
+        "Docker",
+      
       ],
       description:
         "A web-based video browsing platform using Node.js, Express.js,MongoDB and React. Incorporated client-side caching, query invalidation, and optimistic UI updates using React Query.",
       logo: ConsultlyLogo,
       link: {
         label: "videohub.sarojranjan.me",
-        href: "https://videohub.sarojranjan.me/",
+        href: "https://video.sarojranjan.me/",
       },
     },
+    {
+      title: "Centralized Trading Exchange Platform",
+      techStack: ["TypeScript","Express", "Next.js", "PostgreSQL","Redis","WebSockets"],
+      description:
+        "Distributed centralized trading exchange for real-time asset trading. Utilized a WebSocket server to deliver real-time updates for depth, tickers, trades, and trading charts.",
+ 
+      logo: MonitoLogo,
+      link: {
+        label: "exchange.sarojranjan.me",
+        href: "https://github.com/SarojKumarRanjan/Crypto-Exchange",
+      },
+    },
+    
     {
       title: "Multithreaded Proxy Web Server",
       techStack: ["c","Multithreading","Linked-List","LRU-Cache"],
@@ -253,5 +271,16 @@ export const RESUME_DATA = {
         href: "https://github.com/SarojKumarRanjan/Multithreaded-Proxy-Web-Server",
       },
     },
+    {
+      title: "Blog App",
+      techStack: ["Javascript","Appwrite","React","Serverless","Tailwind CSS","TinyMCE"],
+      description:
+        "A blog application built with Appwrite as backend service and React. Implemented user authentication, real-time updates, and a rich text editor for creating and editing blog posts.",
+      logo: MonitoLogo,
+      link: {
+        label: "blog.sarojranjan.me",
+        href: "https://blog.sarojranjan.me",
+      },
+    }
   ],
 } as const;
