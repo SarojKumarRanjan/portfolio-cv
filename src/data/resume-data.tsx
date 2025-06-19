@@ -49,7 +49,7 @@ export const RESUME_DATA = {
       },
       {
         name: "X",
-        url: "https://x.com/saroj02",
+        url: "https://x.com/mildlybuffering",
         icon: XIcon,
       },
     ],
