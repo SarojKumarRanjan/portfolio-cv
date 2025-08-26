@@ -1,7 +1,7 @@
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { RESUME_DATA } from "@/data/resume-data";
-//import { WorkExperience } from "./components/WorkExperience";
+import { WorkExperience } from "./components/WorkExperience";
 import { Projects } from "./components/Projects";
 import { Education } from "./components/Education";
 import { Summary } from "./components/Summary";
@@ -50,7 +50,7 @@ export default function ResumePage() {
         <div className="space-y-8 print:space-y-4">
           <Summary summary={RESUME_DATA.summary} />
 
-         {/*  <WorkExperience work={RESUME_DATA.work} /> */}
+           <WorkExperience work={RESUME_DATA.work} /> 
 
           <Education education={RESUME_DATA.education} />
 

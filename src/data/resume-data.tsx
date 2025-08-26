@@ -64,43 +64,45 @@ export const RESUME_DATA = {
       degree: "Bachelor of Technology in Electronics and Communication",
       start: "",
       end: "2026",
-    },
+    }/* ,
      {
       school: "A.B.S Inter College",
       degree: "Intermediate of Science",
       start: "",
       end: "2021",
-    }, 
+    }, */ 
   ],
   work: [
-  /*  {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
+    {
+      company: "Zimyo HR Software",
+      link: "https://www.zimyo.com/",
+      badges: ["React.js","TypeScript","MySQL","Express.js"],
+      title: "Software Engineering Intern",
       logo: ConsultlyLogo,
-      start: "2024",
+      start: "June , 2026",
       end: null,
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Working on enhancing and maintaining features of the Zimyo HRMS.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Migrated the ATS , Payroll and LMS Module to new UI component Library.
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+               Worked on Integrating more than 5 Job Portals including Naukri.com,Indeed etc. with ATS module.
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              Rewrote the bulk file upload functionality using pre-signed URLs to enhance  performance.
+            </li>
+            <li>
+             Contributed over 10+ feature releases and key improvements to Zimyo HRMS, enhancing user experience in just two months.
             </li>
           </ul>
         </>
       ),
      },
+
+     /*
     {
       company: "Parabol",
       link: "https://parabol.co",
@@ -204,7 +206,7 @@ export const RESUME_DATA = {
     "JavaScript",
     "TypeScript",
     "c++",
-    "SQL",
+    "mySQL",
     "Git",
     "Node.js",
     "Express",
@@ -213,7 +215,6 @@ export const RESUME_DATA = {
     "React Query",
     "Tailwind CSS",
     "MongoDB",
-    "PostgreSQL",
     "Prisma ORM",
     "WebRTC",
     "WebSockets",
@@ -223,6 +224,26 @@ export const RESUME_DATA = {
     "Cloudflare",
   ],
   projects: [
+    {
+      title:"MCQ Test Platform",
+      techStack: ["TypeScript", "Express","Redis", "React.js","Zustand", "NeonDB", "Tailwind CSS","Shadcn"],
+      description: "A web-based platform for practicing customized multiple-choice quizzes. Users can create quizzes with various question types, set time limit and can choose desired topics for that test.",
+      logo: MonitoLogo,
+      link: {
+        label: "test.sarojranjan.me",
+        href: "https://test.sarojranjan.me/",
+      },
+    },
+    {
+      title:"Drawpad",
+      techStack: ["TypeScript", "socket.io", "React.js", "HTML Canvas","Zustand" ,"Tailwind CSS", "Vercel"],
+      description: "A collaborative whiteboard platform for brainstorming and design sessions. Users can create/join rooms to draw together in real-time, with features like multiple brush types, colors, and an eraser and many more tool.",
+      logo: MonitoLogo,
+      link: {
+        label: "drawpad.sarojranjan.me",
+        href: "https://drawpad.sarojranjan.me/",
+      },
+    },
 
     {
       title: "VideoHub",
@@ -247,7 +268,7 @@ export const RESUME_DATA = {
         href: "https://video.sarojranjan.me/",
       },
     },
-    {
+    /* {
       title: "Centralized Trading Exchange Platform",
       techStack: ["TypeScript","Express", "Next.js", "PostgreSQL","Redis","WebSockets"],
       description:
@@ -270,7 +291,7 @@ export const RESUME_DATA = {
         label: "proxy.sarojranjan.me",
         href: "https://github.com/SarojKumarRanjan/Multithreaded-Proxy-Web-Server",
       },
-    },
+    }, */
     {
       title: "Blog App",
       techStack: ["Javascript","Appwrite","React","Serverless","Tailwind CSS","TinyMCE"],

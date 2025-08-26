@@ -169,7 +169,7 @@ export function Header() {
         />
       </div>
 
-      <Avatar className="size-28" aria-hidden="true">
+      <Avatar className="size-40 mr-5" aria-hidden="true">
         <AvatarImage
           alt={`${RESUME_DATA.name}'s profile picture`}
           src={RESUME_DATA.avatarUrl}
