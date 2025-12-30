@@ -57,7 +57,7 @@ export const RESUME_DATA = {
     tel: "+918210807752",
     
   },
-  personalWebsiteUrl: "https://sarojranjan.me",
+  personalWebsiteUrl: "https://sarojranjan.tech",
   education: [
     {
       school: "Dronacharya Group of Institutions",
@@ -230,8 +230,8 @@ export const RESUME_DATA = {
       description: "A web-based platform for practicing customized multiple-choice quizzes. Users can create quizzes with various question types, set time limit and can choose desired topics for that test.",
       logo: MonitoLogo,
       link: {
-        label: "test.sarojranjan.me",
-        href: "https://test.sarojranjan.me/",
+        label: "test.sarojranjan.tech",
+        href: "https://test.sarojranjan.tech/",
       },
     },
     {
@@ -240,8 +240,8 @@ export const RESUME_DATA = {
       description: "A collaborative whiteboard platform for brainstorming and design sessions. Users can create/join rooms to draw together in real-time, with features like multiple brush types, colors, and an eraser and many more tool.",
       logo: MonitoLogo,
       link: {
-        label: "drawpad.sarojranjan.me",
-        href: "https://drawpad.sarojranjan.me/",
+        label: "drawpad.sarojranjan.tech",
+        href: "https://drawpad.sarojranjan.tech/",
       },
     },
 
@@ -264,8 +264,8 @@ export const RESUME_DATA = {
         "A web-based video browsing platform using Node.js, Express.js,MongoDB and React. Incorporated client-side caching, query invalidation, and optimistic UI updates using React Query.",
       logo: ConsultlyLogo,
       link: {
-        label: "videohub.sarojranjan.me",
-        href: "https://video.sarojranjan.me/",
+        label: "videohub.sarojranjan.tech",
+        href: "https://video.sarojranjan.tech/",
       },
     },
     /* {
@@ -299,8 +299,8 @@ export const RESUME_DATA = {
         "A blog application built with Appwrite as backend service and React. Implemented user authentication, real-time updates, and a rich text editor for creating and editing blog posts.",
       logo: MonitoLogo,
       link: {
-        label: "blog.sarojranjan.me",
-        href: "https://blog.sarojranjan.me",
+        label: "blog.sarojranjan.tech",
+        href: "https://blog.sarojranjan.tech",
       },
     }
   ],
